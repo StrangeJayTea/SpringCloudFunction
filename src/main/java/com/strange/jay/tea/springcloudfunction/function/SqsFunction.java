@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 
 public class SqsFunction implements Function<SQSEvent, SQSBatchResponse> {
 
-    Logger LOGGER = LoggerFactory.getLogger(SqsFunction.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(SqsFunction.class);
 
 
     @Override
